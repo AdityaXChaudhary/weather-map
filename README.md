@@ -15,7 +15,7 @@ An interactive map that displays current weather information and forecasts overl
 
 - Add screenshots or a demo GIF here to show the map and weather overlays.
 - Example:
-  - `whether ss.png`
+  -   ![Weather map screenshot](https://github.com/AdityaXChaudhary/weather-map/blob/main/whether%20ss.png)
   
 
 ## Tech / Libraries (examples)
