@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>India Weather</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="images/clouds.png" />
+</head>
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar">
+    <div class="logo">🌏 India Weather Info</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#map-container">Map</a></li>
+      <li><a>Info</a></li>
+      <li><a href="#footer">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- header -->
+  <header class="site-header">
+    <p class="subtitle"><span id="typewriter">Get real-time weather and AQI details by hovering or tapping on the states</span></p>
+  </header>
+
+  <!-- tooltip -->
+  <div id="tooltip"></div>
+
+  <!-- locationbtn -->
+  <button id="my-location-btn">📍 Show My Location Weather</button>
+
+  <!-- infobox -->
+  <main id="main-content">
+    <div id="map-container">
+      <object id="india-map" data="india-map.svg" type="image/svg+xml"></object>
+    </div>
+
+    <div id="info-box">
+      <h3 id="region-name">Hover over a state</h3>
+      <p id="details">Weather & AQI data will appear here.</p>
+    </div>
+  </main>
+
+  <!-- footer -->
+  <footer class="site-footer" id="footer">
+    <p>Made by ~Aditya Chaudhary</p>
+    <p>Real-time insights powered by trusted APIs | © 2025 All Rights Reserved</p>
+
+    <!-- links -->
+    <div class="social-icons">
+      <a href="https://github.com/AdityaXChaudhary" target="_blank" title="GitHub">GitHub</a>
+      <a href="https://www.linkedin.com/in/adityachaudharyin/" target="_blank" title="LinkedIn">LinkedIn</a>
+      <a href="mailto:adityachaudharyy.in@gmail.com" title="Email" >Contact</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
