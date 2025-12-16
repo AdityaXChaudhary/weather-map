@@ -11,9 +11,8 @@ An interactive map that displays current weather information and forecasts overl
 - Configurable data source (e.g., OpenWeatherMap, Meteo, or other weather APIs)
 - Responsive UI (desktop + mobile)
 
-## Demo / Screenshots
+## Screenshots
 
-- Add screenshots or a demo GIF here to show the map and weather overlays.
 - Example:
   -   ![Weather map screenshot](https://github.com/AdityaXChaudhary/weather-map/blob/main/whether%20ss.png)
   
